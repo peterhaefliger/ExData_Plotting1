@@ -1,6 +1,6 @@
-# plot1.R
+# plot3.R
 # Coursera course 'Exploratory Data Analysis', course project 1
-# Script for re-creating plot 1
+# Script for re-creating plot 3
 
 # source base functions
 source('base_functions.R')
@@ -11,7 +11,7 @@ if (!exists("input_data")) {
 }
 
 # construct plot
-plot <- construct_plot1()
+plot <- construct_plot3()
 
 # print plot
-print_plot(plot, "plot1.png")
+print_plot(plot, "plot3.png")
